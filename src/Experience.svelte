@@ -143,7 +143,7 @@
 
 <div class="bo1" on:click={blue_toggle}>
 	<div class="mit" >
-		<img src="images/mit.png">
+<!-- 		<img src="images/mit.png"> -->
 	</div>
 	
 </div>
