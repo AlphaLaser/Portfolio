@@ -2,25 +2,17 @@
   "name": "svelte-app",
   "version": "1.0.0",
   "scripts": {
-    "build": "rollup -c",
-    "dev": "rollup -c -w",
-    "start": "sirv public"
+    "dev": "vite"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^12.0.0",
-    "@rollup/plugin-node-resolve": "^8.0.0",
-    "autoprefixer": "^9.8.5",
-    "postcss": "^7.0.32",
-    "rollup": "^2.3.4",
-    "rollup-plugin-livereload": "^1.0.0",
-    "rollup-plugin-svelte": "^5.0.3",
-    "rollup-plugin-terser": "^5.1.2",
-    "svelte": "^3.0.0",
-    "svelte-preprocess": "^4.0.8"
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
+    "svelte": "^3.44.1",
+    "svelte-preprocess": "^4.9.8",
+    "svelte-typewriter": "^3.0.0-alpha.5",
+    "vite": "^2.6.14"
   },
   "dependencies": {
-    "bulma": "^0.9.0",
-    "sass": "^1.26.10",
-    "sirv-cli": "^0.4.4"
+    "bulma": "^0.9.3",
+    "sass": "^1.43.4"
   }
 }
