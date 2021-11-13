@@ -3,7 +3,7 @@
 	import Navbar from './Navbar.svelte' ;
     import Icons from './Icons.svelte' ;
     import Experience from './Experience.svelte';
-    // import Typewriter from 'svelte-typewriter'
+    import Typewriter from 'svelte-typewriter'
 
 	
 </script>
@@ -56,6 +56,8 @@
 
 </style>
 
+<Typewriter loop>Hello World!</Typewriter>
+
 <section class="p1">
 <container class = "upper-orange">
 	<Navbar/>
@@ -88,8 +90,9 @@
 
 <Icons/>
 
-
 </section>  
+
+
 <br>   
         
 <section class = "p2" >
