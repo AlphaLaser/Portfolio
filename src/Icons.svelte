@@ -1,5 +1,4 @@
 <script>
-
 </script>
 
 <style>
@@ -23,6 +22,8 @@
         top: 80%;
         left:57.5%;
     }
+
+    
 </style>
 <a href="https://github.com/AlphaLaser" target=”_blank”>
 <span class="github">
@@ -49,3 +50,5 @@
         <img src="../images/spotify.png" width="40px" alt="boy">
     </span>
 </a>
+
+<br>

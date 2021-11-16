@@ -5,6 +5,8 @@
     import Experience from './Experience.svelte';
     import Typewriter from 'svelte-typewriter'
 
+    let qualities = ['ML Enthusiast 🤖', 'Frontend Dev 💻', 'UI/UX Designer 🎨', 'Meme Lover 🐶', 'Music Lover 🎵','Food Lover 🍔']
+
 	
 </script>
 
@@ -16,6 +18,10 @@
         width: 100%;
         background-color:  #F86F6D;
     }
+
+    ::selection {
+        background : beige;
+}
 
     .lower-white{
         position: absolute;
@@ -48,7 +54,28 @@
         height :100% ;
         float : left;
     }
+    
+    .loop{
+        position: absolute;
+        top:80%;
+        left:52%;
+        color: #F86F6D;
+        
+    }
 
+    .qualities{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 25px;
+    }
+
+    .prefix{
+        position: absolute;
+        top:80%;
+        left:36%;
+        color:white;
+
+    }
    
 
 
@@ -56,7 +83,7 @@
 
 </style>
 
-<Typewriter loop>Hello World!</Typewriter>
+
 
 <section class="p1">
 <container class = "upper-orange">
@@ -78,7 +105,22 @@
 
 
 <container class = "lower-white">
+    <span class="qualities">
+        <div class="prefix">
+            I am a 15 yr old
+        </div>
+        
 
+        <div class="loop">
+            <Typewriter loop cursor='#F86F6D'>
+                    {#each qualities as quality}
+                    <p>{quality}</p>
+                    {/each}
+            </Typewriter>
+        </div>
+    </span>
+    
+    
 </container>
 
 
@@ -89,6 +131,7 @@
 	</div>
 
 <Icons/>
+
 
 </section>  
 
