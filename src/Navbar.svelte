@@ -26,7 +26,7 @@
           Tech Stack
         </a>
   
-        <a class="navbar-item">
+        <a class="navbar-item" href="#p2">
           Experience
         </a>
   
