@@ -3,7 +3,8 @@
 	import Navbar from './Navbar.svelte' ;
     import Icons from './Icons.svelte' ;
     import Experience from './Experience.svelte';
-    import Typewriter from 'svelte-typewriter'
+    import Typewriter from 'svelte-typewriter';
+    import Skills from './Skills.svelte' ;
 
     let qualities = ['ML Enthusiast 🤖', 'Frontend Dev 💻', 'UI/UX Designer 🎨', 'Meme Lover 🐶', 'Music Lover 🎵','Food Lover 🍔']
 
@@ -21,6 +22,7 @@
 
     ::selection {
         background : beige;
+        color:black;
 }
 
     .lower-white{
@@ -150,6 +152,10 @@
     <TechStack/>
     
     </section>  -->
+
+<section class="p3">
+    <Skills/>
+</section>
 
         
 
